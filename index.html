@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-      .success, .error{
+      .success,
+      .error {
         color: whitesmoke;
         padding: 5px;
         margin: 5px 0 15px 0;
@@ -13,10 +14,10 @@
         font-weight: bolder;
         border-radius: 8px;
       }
-      .success{
+      .success {
         background: darkgreen;
       }
-      .error{
+      .error {
         background: crimson;
       }
     </style>
@@ -44,6 +45,11 @@
         </div>
 
         <div>
+          <label for="pageNumber">Page Number</label>
+          <input type="text" name="" id="pageNumber" class="u-full-width" />
+        </div>
+
+        <div>
           <input type="submit" value="Submit" class="u-full-width" />
         </div>
       </form>
@@ -54,6 +60,7 @@
             <th>Title</th>
             <th>Author</th>
             <th>ISBN#</th>
+            <th>Page Number</th>
             <th></th>
           </tr>
         </thead>
